@@ -33,7 +33,7 @@ function init() {
   });
   
   /*load json*/
-map.data.loadGeoJson("data/2016187_review.json");
+map.data.loadGeoJson("data/2016187_review.geojson");
   /*add colors*/
    
       map.data.setStyle(function(feature) {
