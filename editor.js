@@ -142,13 +142,7 @@ function bindDataLayerListeners(dataLayer) {
 }
 
 // Display the validity of geoJson.
-function setGeoJsonValidity(newVal) {
-  if (!newVal) {
-    geoJsonInput.className = 'invalid';
-  } else {
-    geoJsonInput.className = '';
-  }
-}
+
 function resizeGeoJsonInput() {
   var geoJsonInputRect = geoJsonInput.getBoundingClientRect();
   var panelRect = panel.getBoundingClientRect();
